@@ -9,8 +9,8 @@ import cucumber.api.java.en.When;
  */
 public class StepDefs {
 
-    @When("^user request for lists of Posts published on Blog$")
-    public void user_request_for_lists_of_Posts_published_on_Blog() throws Throwable {
+    @When("^user request for list of Posts published on Blog$")
+    public void user_request_for_list_of_Posts_published_on_Blog() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
