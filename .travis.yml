@@ -1,6 +1,6 @@
 language: java
 install: true
-script: mvn install
+script: mvn verify
 jdk:
 - oraclejdk8
 env:
