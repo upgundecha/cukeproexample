@@ -49,6 +49,13 @@
             <artifactId>json</artifactId>
             <version>${json.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-pro</artifactId>
+            <version>1.0.16</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
