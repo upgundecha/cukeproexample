@@ -1,12 +1,10 @@
 package com.testomatic.cuke;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 import static com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.json.JSONArray;
 
 import static org.junit.Assert.assertThat;

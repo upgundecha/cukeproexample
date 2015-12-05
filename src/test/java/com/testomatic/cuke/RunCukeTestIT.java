@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
  *
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(format="cucumber.pro.CucumberProFormatter", features = {"."})
-
+//@CucumberOptions(format="cucumber.pro.CucumberProFormatter", features = {"."})
+@CucumberOptions( plugin = {"pretty", "html:target/cucumber", "junit:target/results.xml"}, features = {"."})
 public class RunCukeTestIT {
 }
