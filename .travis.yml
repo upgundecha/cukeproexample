@@ -1,0 +1,10 @@
+language: java
+script: mvn clean test
+jdk:
+- openjdk8
+- oraclejdk8
+env:
+  global:
+  - CUCUMBER_PRO_DEBUG=true
+  - CI=true
+  - secure: "AF5ewlSHj3D/z1S2MD9tWHqZp08ROJvcv8O8RlSWUo+gPigdOxkOmUJO4Cewceb+Pi+krOhie6c16QzdkJnjs72I2zUYgPWgTez4Vox3p1H3qlzbTnhwK16Mvk6JnvKRnYBaMZd2X/QhSCzwM3PsltvmiuxHLpxAM2fJc3gThr48wnlV06ih3KBIA0nFVctFbKrgGgDmiUkOqxR4zX0Dx4JMrfdptWAQUhKXxzXP32ZpfXunBgGOSOIBiOFbXh/f0rnMQpUcbs713blAIoTE5CQlYp6PKJXTvx+IB3U+Syg9J8jwol1neuZ6t8ot05UAbekB1O+1gR66QdOr5t16ByM9TUjGGLJKt/4c1xGeXOQKEJ7c5GgBZ7wrQgqg7wQWI47gFtq/BvB+kkXgWhaZ5434WaGqyQRUZXu99+MPklv1Wk8k54aJ14AaI8rzmZGEGmm/FZEdUN4ynjZes8UgVABqoT7zBCfz78C6MmVNTav3S8yOAcsQ9PWri7TTd9XKF1EAjNqjL5KEafS+fjJzig+/zQRqH5fKBnwHSEbtnUvvAaRi2FPJFd/yZMC68lrzMpgH9NI1JG6u1ZG2ZDqKLo+bmWG1i0uHmOPZOhcWJMqf7CUV1NSKOHi4g5zs7py8LmrV5ybQhxKTJN/uw9/AD5hitwIT7IRmt+UBFwj8v+0="
